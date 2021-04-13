@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[RummyBaazi Site Opens]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="60021" started-at="2021-04-13T06:34:37Z" finished-at="2021-04-13T06:35:37Z">
+    <groups>
+    </groups>
+    <test name="Login Validation" duration-ms="42744" started-at="2021-04-13T06:34:37Z" finished-at="2021-04-13T06:35:20Z">
+      <class name="testCases.loginValidation_TestCases">
+        <test-method status="PASS" signature="LoginValidation()[pri:0, instance:testCases.loginValidation_TestCases@409c54f]" name="LoginValidation" duration-ms="41545" started-at="2021-04-13T12:04:37Z" finished-at="2021-04-13T12:05:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[RummyBaazi Site Opens]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginValidation -->
+        <test-method status="PASS" signature="after()[pri:0, instance:testCases.loginValidation_TestCases@409c54f]" name="after" is-config="true" duration-ms="1178" started-at="2021-04-13T12:05:19Z" finished-at="2021-04-13T12:05:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- testCases.loginValidation_TestCases -->
+    </test> <!-- Login Validation -->
+    <test name="Exisiting and New User Login" duration-ms="60021" started-at="2021-04-13T06:34:37Z" finished-at="2021-04-13T06:35:37Z">
+      <class name="testCases.multipleLogin_TestCases">
+        <test-method status="PASS" signature="config()[pri:0, instance:testCases.multipleLogin_TestCases@6f19ac19]" name="config" is-config="true" duration-ms="10" started-at="2021-04-13T12:04:37Z" finished-at="2021-04-13T12:04:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method status="PASS" signature="MultiLoginAction(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.multipleLogin_TestCases@6f19ac19]" name="MultiLoginAction" duration-ms="41746" started-at="2021-04-13T12:04:37Z" data-provider="getData" finished-at="2021-04-13T12:05:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rafi26]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[New User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MultiLoginAction -->
+        <test-method status="PASS" signature="MultiLoginAction(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.multipleLogin_TestCases@6f19ac19]" name="MultiLoginAction" duration-ms="18251" started-at="2021-04-13T12:05:19Z" data-provider="getData" finished-at="2021-04-13T12:05:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tester6021]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Existing User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MultiLoginAction -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.multipleLogin_TestCases@6f19ac19]" name="teardown" is-config="true" duration-ms="1" started-at="2021-04-13T12:05:37Z" finished-at="2021-04-13T12:05:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.multipleLogin_TestCases -->
+    </test> <!-- Exisiting and New User Login -->
+  </suite> <!-- Suite -->
+</testng-results>
